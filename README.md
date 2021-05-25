@@ -1,29 +1,20 @@
-# Spring Cloud Workshop
+# SK planet Tacademy - Spring Cloud Workshop
 
-## How to start
-
-### Repository Clone 받기
+## Spring Cloud를 활용한 MSA 기초 온라인 강의 실습
 
 ```
-git clone https://github.com/Gunju-Ko/spring-cloud-workshop.git
+Hystrix, Ribbon, Eureka, Feign, Zuul 실습
 ```
 
-### 실습 시작 Branch로 이동
-```
-git checkout my-step-0
-```
+## After Class (강의 이후 추가 개발)
 
-### 실습을 건너뛰고 막바로 특정 단계에서 시작하기
 ```
-git checkout tags/<tag 이름>
-```
-혹은
-```
-git checkout tags/<tag 이름> -b <새로운 브랜치 이름>
+Spring Cloud Config Server 적용 실습
 ```
 
 ## 주요 단계별 Tag 설명
 
+### 실습
 - `step-0` : 실습 시작
 - `step-1` : RestTemplate을 이용한 서버 호출 실습
 - `step-2-hystrix-baseline` : Hystrix 실습 초기 상태
@@ -50,3 +41,8 @@ git checkout tags/<tag 이름> -b <새로운 브랜치 이름>
 - `step-6-zuul-isolation-thread-pool` : ThreadPool을 이용한 Isolation 사용
 - `step-6-zuul-ribbon-config` : serviceId별 Ribbon 설정하기
 - `step-ended` : 실습 완료
+  
+### After Class 
+- `step-7-config-baseline` : Config Server 초기 설정
+- `step-7-config-product-test` : product 만 Config Server 적용 후 테스트  
+- `step-7-config-all` : Config Server 전체 적용
