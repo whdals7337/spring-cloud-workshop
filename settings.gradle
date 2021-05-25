@@ -3,4 +3,5 @@ include 'product'
 include 'display'
 include 'eureka-server'
 include 'zuul'
+include 'config-server'
 
