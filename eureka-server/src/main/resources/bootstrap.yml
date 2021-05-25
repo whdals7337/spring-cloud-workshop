@@ -1,0 +1,9 @@
+server:
+  port: 8761  # Default : 8761
+
+spring:
+  application:
+    name: eureka-server
+  cloud:
+    config:
+      uri: http://127.0.0.1:8080
